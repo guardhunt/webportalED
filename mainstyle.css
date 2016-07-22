@@ -30,7 +30,7 @@ h4, h3, h2, h1, p {
 	width: 100%;
 	position: absolute;
 	height: 60px;
-	margin: 0px;
+	margin: -8px 0 0 0;
 	z-index: 1;
 }
 
@@ -67,21 +67,24 @@ h4, h3, h2, h1, p {
 	background-color: #fafafa;
 	color: #00ced1;
 }	
-    
-.masthead {
-	background: url(pictures/ReprodPhysCells2.jpg) no-repeat center center fixed;
+     
+.aboutbanner {
+	background: url(pictures/aboutbanner.png) no-repeat center center fixed;
 	background-size: cover;
 	width: 100%;
 	position: relative;
-	margin: auto;
-	min-height: 680px;
+	height: 640px;
+	margin: 0 auto;
+	
 }
 
-.overlay{ 
+.aboutbanner .overlay{
+	font-size: 42pt;
+	font-weight: 5px;
 	margin: 0 auto;
-	padding-top: 80px;
-	width: 100%;
-	height: 1px;
+	line-height: 640px;
+	width: 960px;
+	padding-left: 20px;
 }
 
 .textoverlay{
@@ -96,46 +99,81 @@ h4, h3, h2, h1, p {
 	font-weight: 200;
 	background-color: rgba(23, 23, 23, 0.7);
 }
-
-.content_area {
-	background-color: #ffffff;
-	width: 100%;  
-	min-height: 40px;
-	margin: 20px 0px;
-	padding: 10px;
-
+.content1 {
+	padding-top: 10px;
+	width: 960px;
+	height: 100%;  
+	margin: 0 auto;
+	color: black;
 }
 
-.content {
-	width: 960px;
-	height: 100%;
-	margin: 0 auto;
+.contentleft1 {
+	display: inline-block;
+	width: 240px;
 }
 
-.content ul {
-	margin: 0 auto;
+.contentright1{
+	display: inline-block;
+	width: 640px;
+	margin: 30px
+}
+
+.content2 {
+	padding-top: 10px;
 	width: 960px;
+	height: 100%;  
+	margin: 0 auto;
+	color: white;
+}
+
+.content1 ul {
+	margin: 0 auto;
+	width: 80%;
 	list-style-type: none;
+	padding: 0px;
 	text-decoration: none;
+	display: inlin-block;
 }
 
-.content li {
-	margin: 0 auto;
-	width: 192px;
-	padding: 20px;
-	display:inline-block;
-	line-height: 100%
-}
-
-.content li img {
-	max-width: 180px;
+.content1 li {
+	width: 20%;
+	margin: 0px;
+	height: 200px;
+	padding: 10px;
 	display: inline-block;
 }
 
-.content li a{
+.content1 li a {
+	font-size: 16pt;
 	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: #015B68;
+	text-decoration: none;
+	text-align: center;
+	line-height: 100px;
+	color: white;
 }
 
+.contentarea1 {
+	font-size: 16pt;
+	background-color: white;
+	width: 100%;  
+	min-height: 200px;
+	height: 100%;
+	margin: 0px;
+	padding: 10px;
+}
+
+.contentarea2 {
+	font-size: 16pt;
+	background-color: #039EB5;
+	width: 100%;  
+	min-height: 200px;
+	height: 100%;
+	margin: 0px;
+	padding: 10px;
+}
 
 form {
 	margin: 0 auto;
