@@ -87,6 +87,10 @@ h4, h3, h2, h1, p {
 	padding-left: 20px;
 }
 
+.top-margin {
+	height: 60px;
+}
+
 .textoverlay{
 	margin: auto;
 	height: 70px;
@@ -107,15 +111,19 @@ h4, h3, h2, h1, p {
 	color: black;
 }
 
-.contentleft1 {
+.contentleft1, .contentleft2 {
 	display: inline-block;
 	width: 240px;
+	padding: 10px;
 }
 
-.contentright1{
+.contentright1, .contentright2{
 	display: inline-block;
 	width: 640px;
-	margin: 30px
+	margin: 20px 0px;
+	padding-top: 20px;
+	height: 100%;
+	vertical-align: top;
 }
 
 .content2 {
@@ -159,7 +167,7 @@ h4, h3, h2, h1, p {
 	font-size: 16pt;
 	background-color: white;
 	width: 100%;  
-	min-height: 200px;
+	min-height: 150px;
 	height: 100%;
 	margin: 0px;
 	padding: 10px;
@@ -174,6 +182,40 @@ h4, h3, h2, h1, p {
 	margin: 0px;
 	padding: 10px;
 }
+
+.partners ul {
+	margin: 0 auto;
+	width: 960px;
+	list-style-type: none;
+	padding: 0px;
+	text-decoration: none;
+}
+
+.partners li {
+	max-width: 300px;
+	max-width: 280px;
+	padding: 30px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.partners li a{
+	margin: auto auto;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	vertical-align:top;
+
+}
+
+.partners img{
+	text-align: center;
+	max-width: 300px;
+	float: center;
+}
+
 
 form {
 	margin: 0 auto;
@@ -228,3 +270,4 @@ input[type=submit] {
 	margin: 10px 0px;
 	display: block;
 }
+

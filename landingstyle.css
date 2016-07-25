@@ -116,6 +116,12 @@ h3, h4, h2, h1, p {
 	margin: 30px
 }
 
+.content1img{
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+}
+
 .content2 {
 	padding-top: 10px;
 	width: 960px;
@@ -164,10 +170,28 @@ h3, h4, h2, h1, p {
 }
 
 .contentarea2 {
+	font-size: 16pt;
 	background-color: #039EB5;
 	width: 100%;  
 	min-height: 200px;
 	height: 100%;
 	margin: 0 px;
 	padding: 10px;
+}
+
+.contentleft2{
+	display: inline-block;
+	width: 550px;
+	margin: 30px
+}
+
+.contentleft2 {
+	display: inline-block;
+	width: 240px;
+}
+
+.contentright2{
+	display: inline-block;
+	width: 640px;
+	margin: 30px
 }
