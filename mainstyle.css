@@ -6,7 +6,7 @@ html {
 	outline: 0;
 }
 
-p, h4, h3, h2, h1, a {
+html {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -216,6 +216,62 @@ h4, h3, h2, h1, p {
 	float: center;
 }
 
+.index ul, .workbook ul{
+	list-style: none;
+
+}
+
+.index li, .workbook li{
+	padding: 5px 0px;
+}
+
+.index a{
+	color: white;
+	text-decoration: underline white;
+}
+
+.workbook a{
+	color: black;
+	text-decoration: none;
+}
+
+.workbook {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.centertext{
+	text-align: center;
+}
+
+.downloadbutton{
+	width: 100px;
+	height: 80px;
+	background-color: #0F8251;
+	color: white;
+	border-radius: 5pt;
+	padding: 0px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.downloadbutton a{
+	display: block;
+	padding: 10px 0;
+	width: 100px;
+	height: 60px;
+	font-size: 12pt;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.downloadbutton a img {
+	width: 30px;
+	padding: 10px;
+	-webkit-filter: invert(1);
+    filter: invert(1);
+}
 
 form {
 	margin: 0 auto;
