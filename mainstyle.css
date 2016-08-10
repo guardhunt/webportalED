@@ -94,7 +94,7 @@ h4, h3, h2, h1, p {
 	padding: 10px;
 	color: white;
 	text-align: center;
-	font-size: 15pt;
+	font-size: 13pt;
 	width: 50%;
 	border-radius: 10px;
 	font-weight: 200;
@@ -149,7 +149,7 @@ h4, h3, h2, h1, p {
 }
 
 .content1 li a {
-	font-size: 16pt;
+	font-size: 13pt;
 	display: inline-block;
 	width: 100%;
 	height: 100%;
@@ -161,7 +161,7 @@ h4, h3, h2, h1, p {
 }
 
 .contentarea1 {
-	font-size: 16pt;
+	font-size: 13pt;
 	background-color: white;
 	width: 100%;  
 	min-height: 150px;
@@ -171,7 +171,7 @@ h4, h3, h2, h1, p {
 }
 
 .contentarea2 {
-	font-size: 16pt;
+	font-size: 13pt;
 	background-color: #039EB5;
 	width: 100%;  
 	min-height: 200px;
