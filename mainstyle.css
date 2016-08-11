@@ -7,6 +7,10 @@ html {
 	font-family: Arial, "Trebuchet MS", Helvetica, sans-serif;
 }
 
+h2 {
+	font-size: 20px;
+}
+
 
 h4, h3, h2, h1, p {
 	margin: 5px 0px;
@@ -77,7 +81,6 @@ h4, h3, h2, h1, p {
 
 .aboutbanner .overlay{
 	font-size: 42pt;
-	font-weight: 5px;
 	margin: 0 auto;
 	line-height: 640px;
 	width: 960px;
@@ -97,7 +100,7 @@ h4, h3, h2, h1, p {
 	font-size: 13pt;
 	width: 50%;
 	border-radius: 10px;
-	font-weight: 200;
+	font-weight: 20px;
 	background-color: rgba(23, 23, 23, 0.7);
 }
 .content1 {
@@ -118,9 +121,17 @@ h4, h3, h2, h1, p {
 	display: inline-block;
 	width: 640px;
 	margin: 20px 0px;
-	padding-top: 20px;
+	padding-top: 50px;
 	height: 100%;
 	vertical-align: top;
+}
+
+.watchIframe{
+	width: 780;
+	height: 460;
+	margin: 0 auto;
+	padding: 0px;
+	border: 1px solid black;
 }
 
 .content2 {
@@ -164,7 +175,7 @@ h4, h3, h2, h1, p {
 	font-size: 13pt;
 	background-color: white;
 	width: 100%;  
-	min-height: 150px;
+	min-height: 120px;
 	height: 100%;
 	margin: 0px;
 	padding: 10px;
@@ -204,7 +215,6 @@ h4, h3, h2, h1, p {
 	text-align: center;
 	display: inline-block;
 	vertical-align:top;
-
 }
 
 .partners img{
